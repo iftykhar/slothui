@@ -19,6 +19,8 @@ body{
 .navbar{
     display: flex;
     justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
 }
 
 .ls-none{
@@ -30,10 +32,52 @@ body{
     color: #000;;
 }
 .btn{
-    background-color: #007bff;
-    color: white;
+    background-color: none;
+    color: #9c9c9c;
     padding: 12px 20px;
-    border: none;
+    border: #9C9C9C solid 1px;
     border-radius: 20px;
     cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #4F46E5;
+    color: #fff;
+}
+
+.justify-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.justify-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+.justify-evenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.justify-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.align-items-center{
+    display: flex;
+    align-items: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.gap-1{
+    gap: 10px;
+}
+.gap-2{
+    gap: 20px;
 }
