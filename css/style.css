@@ -1,13 +1,13 @@
 body{
-    max-width: fit-content;
-    min-width: none;
+    margin: auto;
 }
 
 .container{
     width: 100%;
     margin: 0 auto;
     /* padding: 20px; */
-    padding: 0 40px;
+    padding-left : 50px;
+    padding-right: 50px;
 }
 
 .d-flex{
@@ -16,7 +16,10 @@ body{
     align-items: center;
 }
 
-
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
 
 .ls-none{
     list-style: none;
@@ -25,4 +28,12 @@ body{
 .td-none{
     text-decoration: none;
     color: #000;;
+}
+.btn{
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
 }
