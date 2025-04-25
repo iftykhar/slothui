@@ -1,0 +1,28 @@
+body{
+    max-width: fit-content;
+    min-width: none;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    /* padding: 20px; */
+    padding: 0 40px;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.ls-none{
+    list-style: none;
+    margin: 0 10px;
+}
+.td-none{
+    text-decoration: none;
+    color: #000;;
+}
