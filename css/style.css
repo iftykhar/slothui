@@ -37,6 +37,14 @@ body{
     text-decoration: none;
     color: #000;;
 }
+
+.btn-download{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
 .btn{
     background-color: none;
     color: #9c9c9c;
