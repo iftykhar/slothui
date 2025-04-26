@@ -23,6 +23,9 @@ body{
 .text-color-gray{
     color: #475569;
 }
+.text-20{
+    font-size: 20px;
+}
 
 .social-container{
     /* width: 100%;
@@ -64,6 +67,14 @@ body{
     border-radius: 8px;
 }
 
+.blue-section{
+    background-color: #F8FAFC;
+}
+
+.stat-text{
+    margin: -30px -30px; 
+    padding: -30px -30px;
+}
 
 .stats-container{
   padding: 0 112px;
@@ -83,6 +94,39 @@ body{
     font-size: 68px;
 }
 
+.feature-container{
+    padding: 0 112px;
+}
+
+.feature-q-text{
+    padding-left: 0 ;
+    padding-left: 40px;
+    padding-top: 40px ;
+    padding-bottom: 40px;
+
+}
+
+.feature-q-text-box{
+    padding: 0  112px 0 0;
+}
+
+.feature-q-text-box h2{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -1%;
+    padding-right: 50px;
+    
+}
+
+.feature-q-text-box p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 9%;
+    padding-top: 10px;
+    margin-right: 25%; 
+}
 .d-flex{
     display: flex;
     justify-content: space-between;
@@ -140,6 +184,7 @@ body{
 .justify-between{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .justify-around{
