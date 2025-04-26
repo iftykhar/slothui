@@ -20,12 +20,31 @@ body{
     font-size: 50px;
 }
 
+.icon-size-mid{
+    font-size: 30px;
+}
+
 .text-color-gray{
     color: #475569;
 }
+
+.text-gold{
+    color: #F59E0B;
+}
+
 .text-20{
     font-size: 20px;
 }
+
+.text-start{
+    text-align: start;
+}
+
+.align-items-start{
+    display: flex;
+    align-items: flex-start;
+}
+
 
 .social-container{
     /* width: 100%;
@@ -66,10 +85,31 @@ body{
     padding: 20px;
     border-radius: 8px;
 }
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 40px;
+    margin: 40px;
+}
+
+.testimonial-grid-box {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.card-box{
+    width: 350px;
+    border: #d1d0d0 solid 1px;
+    border-radius: 15px;
+    padding: 20px;
+    justify-content: space-between;
+}
 
 .blue-section{
     background-color: #F8FAFC;
 }
+
+
 
 .stat-text{
     margin: -30px -30px; 
@@ -127,6 +167,27 @@ body{
     padding-top: 10px;
     margin-right: 25%; 
 }
+
+
+.textimonial-container{
+    padding: 0 112px;
+}
+
+.contact-container{
+    padding: 0 112px;
+}
+
+.contact-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+}
+
+.FAQ-container{
+    padding: 0 112px;
+}
+
 .d-flex{
     display: flex;
     justify-content: space-between;
@@ -205,6 +266,10 @@ body{
 .justify-end{
     display: flex;
     justify-content: flex-end;
+}
+.justify-start{
+    display: flex;
+    justify-content: flex-start;
 }
 
 
