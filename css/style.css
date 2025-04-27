@@ -345,6 +345,53 @@ body{
   .footer-container{
     padding: 0 112px;
   }
+  .footer-row{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+    padding: 0 40px;
+  }
+
+ .footer-bottom-row{
+    padding: 50px 40px;
+    display: flex;
+    justify-content: space-between;
+
+ }
+
+ .footer-bottom-up-arrow {
+    border: 1px solid #a1a1a1;
+    border-radius: 50%;
+    padding: 15px;
+    background-color:none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.footer-bottom-up-arrow i {
+    color: #475569;
+    font-size: 20px;
+}
+
+
+.footer-bottom-up-arrow:hover {
+    background-color: #4f46e5;
+}
+
+.footer-bottom-up-arrow:hover i {
+    color: #fff;
+}
+
+
+
+
+  .foot-bold-font{
+    font-weight: 700px;
+    font-size: 16px;
+    line-height: 22px;
+    color:#475569 ;
+  }
 
   /* footer end */
 

@@ -17,17 +17,3 @@ faqItems.forEach(item => {
     }
   });
 });
-
-
-
-
-//   const faqItems = document.querySelectorAll('.faq-item');
-
-//   faqItems.forEach(item => {
-//     item.querySelector('.faq-section-bottom-com').addEventListener('click', () => {
-//       const answer = item.querySelector('p');
-//       if (answer) {
-//         answer.style.display = (answer.style.display === 'block') ? 'none' : 'block';
-//       }
-//     });
-//   });

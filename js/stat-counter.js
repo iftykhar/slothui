@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const counters = document.querySelectorAll('.stat-counter h1');
-    const speed = 150; // Adjust speed: lower = faster
+    const speed = 500; 
 
     const animateCounter = (counter) => {
         const targetText = counter.innerText.trim();
