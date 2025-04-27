@@ -255,7 +255,98 @@ body{
   .cta-container{
     padding: 0 112px;
   }
+
+  .align-center {
+    align-items: center;
+}
+
+.report-section-left {
+    flex: 1;
+    max-width: 50%;
+}
+
+.report-section-left h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 16px;
+}
+
+.report-section-left p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 24px;
+    max-width: 450px;
+}
+
+.report-section-left-inner {
+    display: flex;
+    gap: 16px;
+}
+
+.btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.learn-more-btn {
+    background-color: transparent;
+    border: 1px solid #555;
+    color: #555;
+}
+
+.learn-more-btn:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+.get-started-btn {
+    background-color: #6366F1; /* Blue */
+    color: #fff;
+}
+
+.get-started-btn:hover {
+    background-color: #4F46E5; /* Darker blue */
+}
+
+.report-section-right {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.phone-img-moc2 {
+    width: 100%;
+    /* width: auto; */
+    height: 100%;
+    position: relative;
+    top: 30px;
+    right: -20px;
+}
+
+.phone-img-moc1 {
+    width: 230px;
+    /* width: auto; */
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+
   /* CTA section end */
+
+  /* footer start */
+
+  .footer-container{
+    padding: 0 112px;
+  }
+
+  /* footer end */
 
 .d-flex{
     display: flex;
